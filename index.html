@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Jump</title>
+    <link rel="icon" type="image/png" href="./images/favicon-mario-jump.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+
+<body>
+    <div class="game-board">
+        <img src="./images/clouds.png" class="clouds">
+        <img src="./images/mario.gif" class="mario">
+        <img src="./images/pipe.png" class="pipe">
+    </div>
+
+
+    <div id="tela-game-over" class="game-over-overlay">
+        <h1 class="titulo-game-over">Game Over</h1>
+        <p class="texto-reiniciar">
+            Pressione
+            <kbd class="tecla-espaco" data-tooltip="Barra de Espaço">
+                <i class="fa-solid fa-arrows-left-right-to-line"></i>
+            </kbd>
+            para reiniciar.
+        </p>
+        <button id="btn-reiniciar" class="botao-reiniciar">Reiniciar Jogo</button>
+    </div>
+
+    <div class="score-container">
+        <p>Score: <span id="score">0</span></p>
+    </div>
+
+</body>
+
+
+</html>
