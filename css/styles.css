@@ -109,6 +109,12 @@
 }
 
 
+.copy a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
 .tecla-espaco {
     background-color: #111111;
     color: #00ff66;
