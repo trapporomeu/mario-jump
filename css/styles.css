@@ -88,6 +88,26 @@
 }
 
 
+.copy {
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ffffff7e;
+    border-radius: 20px;
+
+    &:hover {
+        text-decoration: underline;
+        cursos: pointer;
+    }
+}
+
+
 .tecla-espaco {
     background-color: #111111;
     color: #00ff66;
